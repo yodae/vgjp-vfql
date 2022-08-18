@@ -1,4 +1,4 @@
-name: ubuntu 20 pestañas
+name: ubuntu 20 pestañas 1min
 # on: [push, pull_request]
 on:
   schedule:

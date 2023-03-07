@@ -20,7 +20,7 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: ok
-      run: start chrome /incognito https://yoelmod.blogspot.com
+      run: start chrome https://yoelmod.blogspot.com
     - name: okk
       run: ping 127.0.0.1 -n 30
     - name: listo

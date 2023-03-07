@@ -20,17 +20,17 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com
+      run: start chrome /new-tab https://yoelmod.blogspot.com
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html
+      run: start chrome /new-tab https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html
+      run: start chrome /new-tab https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/vrv-crunchyrool-premium-mod-apk-para.html
+      run: start chrome /new-tab https://yoelmod.blogspot.com/2022/02/vrv-crunchyrool-premium-mod-apk-para.html
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/funimation-premium-mod-apk-para-android.html
+      run: start chrome /new-tab https://yoelmod.blogspot.com/2022/02/funimation-premium-mod-apk-para-android.html
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/paramount-premium-mod-apk-para-android.html
+      run: start chrome /new-tab https://yoelmod.blogspot.com/2022/02/paramount-premium-mod-apk-para-android.html
     - name: okk
       run: ping 127.0.0.1 -n 30
     - name: listo

@@ -20,9 +20,9 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: ok
-      run: Start chrome /incognito https://yoelmod.blogspot.com/2022/05/netflix-premium-free-mod-apk.html
-      run: Start chrome /incognito https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html
-      run: Start chrome /incognito https://yoelmod.blogspot.com
+      run: start chrome /incognito https://yoelmod.blogspot.com/2022/05/netflix-premium-free-mod-apk.html
+      run: start chrome /incognito https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html
+      run: start chrome /incognito https://yoelmod.blogspot.com
     - name: okk
       run: ping 127.0.0.1 -n 30
     - name: listo

@@ -23,7 +23,5 @@ jobs:
       run: start chrome https://yoelmod.blogspot.com
     - name: ok
       timeout-minutes: 1
-    - name: okk
-      run: ping 127.0.0.1 -n 30
     - name: listo
       run: exit

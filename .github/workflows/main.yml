@@ -22,15 +22,7 @@ jobs:
     - name: ok
       run: start chrome https://yoelmod.blogspot.com
     - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html
-    - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html
-    - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/vrv-crunchyrool-premium-mod-apk-para.html
-    - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/funimation-premium-mod-apk-para-android.html
-    - name: ok
-      run: start chrome https://yoelmod.blogspot.com/2022/02/paramount-premium-mod-apk-para-android.html
+      timeout-minutes: 1
     - name: okk
       run: ping 127.0.0.1 -n 30
     - name: listo

@@ -19,10 +19,6 @@ jobs:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
-      - name: Checkout código fuente
-        uses: actions/checkout@v2
-      - name: Instalar Chrome
-        uses: jeremyvreeken/chrome-win-action@v1
       - name: Abrir página web y hacer pausa de 40 segundos
         run: |
           "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" https://yoelmod.blogspot.com

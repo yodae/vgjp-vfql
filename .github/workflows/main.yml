@@ -19,9 +19,19 @@ jobs:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
-      - name: ok
-        run: start chrome --incognito https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html
-      - name: ok2
-        run: ping 127.0.0.1 -n 25
+      - name: Install dependencies
+        run: | 
+          choco install selenium-all-drivers -y
+          pip install selenium
+      - name: Open webpage and scroll
+        run: |
+          from selenium import webdriver
+          from selenium.webdriver.common.keys import Keys
+
+          driver = webdriver.Firefox()
+          driver.get("https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html")
+          body = driver.find_element_by_tag_name("body")
+          body.send_keys(Keys.PAGE_DOWN)
+          driver.close()
       - name: listo
-        run: exit
+       run: exit

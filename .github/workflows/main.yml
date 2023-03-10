@@ -34,4 +34,4 @@ jobs:
           body.send_keys(Keys.PAGE_DOWN)
           driver.close()
       - name: listo
-       run: exit
+        run: exit

@@ -19,10 +19,9 @@ jobs:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
-      - name: Abrir página web y hacer pausa de 40 segundos
-        run: |
-          "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" https://yoelmod.blogspot.com
-          echo "Haciendo una pausa de 40 segundos..."
-          ping 127.0.0.1 -n 40 > nul
+      - name: ok
+        run: start chrome https://yoelmod.blogspot.com
+      - name: ok2
+        run: ping 127.0.0.1 -n 40 > nul
       - name: listo
         run: exit

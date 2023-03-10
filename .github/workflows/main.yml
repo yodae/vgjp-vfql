@@ -22,6 +22,6 @@ jobs:
       - name: ok
         run: start chrome https://yoelmod.blogspot.com
       - name: ok2
-        run: ping 127.0.0.1 -n 40 > nul
+        run: ping 127.0.0.1 -n 25
       - name: listo
         run: exit

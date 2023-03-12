@@ -22,16 +22,16 @@ jobs:
     - name: todo
       run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com/2022/05/netflix-premium-free-mod-apk.html"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/05/netflix-premium-free-mod-apk.html"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com/2022/02/iptv-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/iptv-premium-mod-apk-para-android.html"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com/2022/02/spotify-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/spotify-premium-mod-apk-para-android.html"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com/2022/02/funimation-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/funimation-premium-mod-apk-para-android.html"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com/2022/02/star-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/star-premium-mod-apk-para-android.html"
     - name: todo
-      run: open -a "Google Chrome" --args --new-window "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"

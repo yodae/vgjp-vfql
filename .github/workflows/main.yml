@@ -20,4 +20,4 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/05/netflix-premium-free-mod-apk.html"
+      run: open -a "Google Chrome" "https://dai.ly/x89p9mk"

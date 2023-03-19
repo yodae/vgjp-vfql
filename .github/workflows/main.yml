@@ -20,4 +20,4 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://dai.ly/x89p9mk"
+      run: open -a "Google Chrome" "https://bit.ly/3LyUxi4"

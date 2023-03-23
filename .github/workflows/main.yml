@@ -20,4 +20,45 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://bit.ly/3LyUxi4"
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+

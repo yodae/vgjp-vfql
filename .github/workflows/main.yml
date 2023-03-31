@@ -20,13 +20,4 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
       - name: Install Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16.x'
-      - name: Open page in Chrome
-        uses: sdras/browser-actions@v1
-        with:
-          browserType: chrome
-          url: https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html
-          viewport: '{ "width": 1920, "height": 1080 }'
-          zoom: 30
+        run: Chrome --new-window --args --force-device-scale-factor=0.3 "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"

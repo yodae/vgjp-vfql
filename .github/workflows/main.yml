@@ -19,5 +19,5 @@ jobs:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
-      - name: Install Node.js
-        run: open -a --new-window --args --force-device-scale-factor=0.3 "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+      - name: ok
+        run: open -a --args --force-device-scale-factor=0.3 "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"

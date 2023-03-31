@@ -19,39 +19,14 @@ jobs:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+      - name: Open page in Chrome
+        uses: sdras/browser-actions@v1
+        with:
+          browserType: chrome
+          url: https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html
+          viewport: '{ "width": 1920, "height": 1080 }'
+          zoom: 30

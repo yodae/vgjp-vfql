@@ -20,4 +20,38 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://www.google.com/search?q=Yoelmod+HBO+Max+Premium+APK"
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"

@@ -21,3 +21,5 @@ jobs:
     steps:
     - name: todo
       run: open -a "Google Chrome" "https://www.dailymotion.com/video/x8j7zd2"
+    - name: DONE
+      run: exit

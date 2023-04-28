@@ -20,10 +20,6 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://www.dailymotion.com/video/x8j7zd2"
-    - name: todo
-      run: open -a "Google Chrome" "https://www.dailymotion.com/video/x8j7zd2"
-    - name: todo
-      run: open -a "Google Chrome" "https://www.dailymotion.com/video/x8j7zd2"
+      run: open -a "Google Chrome" "https://www.google.com@yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
     - name: DONE
       run: exit

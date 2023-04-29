@@ -21,5 +21,7 @@ jobs:
     steps:
     - name: todo
       run: open -a "Google Chrome" "https://www.google.com@yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+    - name: todo
+      run: open -a "Google Chrome" "https://www.google.com@yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
     - name: DONE
       run: exit

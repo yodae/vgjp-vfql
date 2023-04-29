@@ -20,8 +20,8 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://www.google.com@yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://rumble.com/vagldl-warriors-fish.html"
     - name: todo
-      run: open -a "Google Chrome" "https://www.google.com@yoelmod.blogspot.com/2022/02/disney-premium-mod-apk-para-android.html"
+      run: open -a "Google Chrome" "https://rumble.com/vagldl-warriors-fish.html"
     - name: DONE
       run: exit

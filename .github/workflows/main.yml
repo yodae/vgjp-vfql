@@ -7,21 +7,19 @@ on:
    
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: Ubuntu-latest
     strategy:
       max-parallel: 20
       fail-fast: false
       matrix:
         go: [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.1, 2.2]
         flag: [A, B, C, D, E, F, G, H, I, G, K, L, M, N, Ñ, O, P, K]
-    timeout-minutes: 5
+    timeout-minutes: 1440
     env:
         NUM_JOBS: 900
         JOB: ${{ matrix.go }}
     steps:
     - name: todo
-      run: open -a "Google Chrome" "https://rumble.com/vagldl-warriors-fish.html"
-    - name: todo
-      run: open -a "Google Chrome" "https://rumble.com/vagldl-warriors-fish.html"
+      run: docker run --restart=always -e APPLICATION_KEY=d30d84c0-0d0b-4483-95dd-b84ae95d1d38 otohits/app:latest
     - name: DONE
       run: exit
